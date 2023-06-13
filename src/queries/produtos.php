@@ -1,5 +1,5 @@
 <?php
-require_once './config.php';
+require_once './config/db.php';
 
 function getProdutos() {
   $conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME);
